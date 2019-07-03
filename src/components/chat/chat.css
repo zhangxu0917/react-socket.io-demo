@@ -1,0 +1,28 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+.form-item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    flex: 1;
+}
+.message-container {
+    padding: 20px 0;
+    text-align: left;
+    height: calc(65vh - 40px);
+    overflow-y: auto;
+}
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+    height: 35vh;
+    text-align: left;
+}
