@@ -28,7 +28,6 @@ export default class chat extends Component {
 			})
 		});
 		this.socket.on('transMessages', val => {
-			console.log(11111);
 			this.setState(val)
 		})
 	}
