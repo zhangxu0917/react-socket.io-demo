@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.chat-container {
+  width: 500px;
+  margin: 0 auto;
+  height: 70vh;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  height: 30vh;
+  text-align: left;
+}
